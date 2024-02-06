@@ -4,23 +4,28 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Lesson 1. Introduction and Basics of HTML</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<nav>
-			<ul>
-				<li><a href="index.html">Главная </a></li>
-				<li><a href="catalog/catalog.html">Каталог</a></li>
-				<li><a href="#">Контакты</a></li>
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a class="navigation__link" href="index.html">Главная </a>
+				</li>
+				<li>
+					<a class="navigation__link" href="catalog/catalog.html">Каталог</a>
+				</li>
+				<li><a class="navigation__link" href="#">Контакты</a></li>
 			</ul>
 		</nav>
-		<h1>Главная страница</h1>
-		<p>
+		<h1 class="main-title">Главная страница</h1>
+		<p class="text">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi natus
 			explicabo dolorem non ratione dolorum dolores rem repudiandae odio animi
 			harum, temporibus saepe mollitia, esse hic magnam numquam iure illum!
 		</p>
-		<h2>Добро пожаловать на сайт</h2>
-		<p>
+		<h2 class='title'>Добро пожаловать на сайт</h2>
+		<p class="text">
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam,
 			quisquam. Nisi ratione doloremque cum explicabo, laboriosam debitis!
 			Placeat perspiciatis doloremque ut repudiandae, ducimus aspernatur harum
